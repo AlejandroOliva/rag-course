@@ -1,0 +1,51 @@
+# RAG Development Environment
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    wget \
+    vim \
+    nano \
+    htop \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Jupyter and VS Code Server
+RUN pip install jupyter jupyterlab
+RUN curl -fsSL https://code-server.dev/install.sh | sh
+
+# Create directories
+RUN mkdir -p /app/examples /app/data /app/models
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV JUPYTER_ENABLE_LAB=yes
+ENV JUPYTER_TOKEN=rag-course
+
+# Expose ports
+EXPOSE 8888 8080
+
+# Create startup script
+RUN echo '#!/bin/bash\n\
+    echo "Starting RAG Development Environment..."\n\
+    echo "Jupyter Lab: http://localhost:8888"\n\
+    echo "VS Code Server: http://localhost:8080"\n\
+    echo "Token: rag-course"\n\
+    \n\
+    # Start VS Code Server in background\n\
+    code-server --bind-addr 0.0.0.0:8080 --auth none /app &\n\
+    \n\
+    # Start Jupyter Lab\n\
+    jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=rag-course\n\
+    ' > /app/start.sh && chmod +x /app/start.sh
+
+# Default command
+CMD ["/app/start.sh"]
