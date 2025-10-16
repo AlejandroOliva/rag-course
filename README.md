@@ -1,9 +1,9 @@
 # 🎓 Complete RAG Course
 
-[![GitHub stars](https://img.shields.io/github/stars/AlejandroOliva/complete-rag-course?style=social)](https://github.com/AlejandroOliva/complete-rag-course/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/AlejandroOliva/complete-rag-course?style=social)](https://github.com/AlejandroOliva/complete-rag-course/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/AlejandroOliva/complete-rag-course)](https://github.com/AlejandroOliva/complete-rag-course/issues)
-[![GitHub license](https://img.shields.io/github/license/AlejandroOliva/complete-rag-course)](https://github.com/AlejandroOliva/complete-rag-course/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/AlejandroOliva/rag-course?style=social)](https://github.com/AlejandroOliva/rag-course/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AlejandroOliva/rag-course?style=social)](https://github.com/AlejandroOliva/rag-course/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/AlejandroOliva/rag-course)](https://github.com/AlejandroOliva/rag-course/issues)
+[![GitHub license](https://img.shields.io/github/license/AlejandroOliva/rag-course)](https://github.com/AlejandroOliva/rag-course/blob/main/LICENSE)
 
 **Complete RAG (Retrieval-Augmented Generation) Course - From Zero to Expert**
 
@@ -13,8 +13,8 @@ Learn to build sophisticated RAG systems that can enhance AI applications with e
 
 ```bash
 # Clone the repository
-git clone https://github.com/AlejandroOliva/complete-rag-course.git
-cd complete-rag-course
+git clone https://github.com/AlejandroOliva/rag-course.git
+cd rag-course
 
 # Install dependencies
 pip install -r requirements.txt
@@ -131,13 +131,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/AlejandroOliva/complete-rag-course/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/AlejandroOliva/complete-rag-course/discussions)
+- **Issues**: [GitHub Issues](https://github.com/AlejandroOliva/rag-course/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AlejandroOliva/rag-course/discussions)
 - **Documentation**: Check the course modules and examples
 
 ---
 
 **Ready to master RAG development? Let's begin! 🎯**
 
-[![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/AlejandroOliva/complete-rag-course)
-[![Fork this repo](https://img.shields.io/badge/🍴-Fork%20this%20repo-blue?style=for-the-badge)](https://github.com/AlejandroOliva/complete-rag-course/fork)
+[![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/AlejandroOliva/rag-course)
+[![Fork this repo](https://img.shields.io/badge/🍴-Fork%20this%20repo-blue?style=for-the-badge)](https://github.com/AlejandroOliva/rag-course/fork)
