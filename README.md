@@ -1,145 +1,143 @@
-# 🎓 Complete RAG (Retrieval-Augmented Generation) Course - From Zero to Expert
+# 🎓 Complete RAG Course
 
-Welcome to the complete RAG course! This course will take you from basic concepts to building sophisticated RAG systems that can enhance AI applications with external knowledge.
+[![GitHub stars](https://img.shields.io/github/stars/AlejandroOliva/rag-course?style=social)](https://github.com/AlejandroOliva/rag-course/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AlejandroOliva/rag-course?style=social)](https://github.com/AlejandroOliva/rag-course/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/AlejandroOliva/rag-course)](https://github.com/AlejandroOliva/rag-course/issues)
+[![GitHub license](https://img.shields.io/github/license/AlejandroOliva/rag-course)](https://github.com/AlejandroOliva/rag-course/blob/main/LICENSE)
 
-## 📚 Course Index
+**Complete RAG (Retrieval-Augmented Generation) Course - From Zero to Expert**
 
-### **[Module 1: Introduction to RAG](module-01-introduction/README.md)**
+Learn to build sophisticated RAG systems that can enhance AI applications with external knowledge. This comprehensive course takes you from basic concepts to production-ready implementations.
 
-* What is RAG and why it matters?
-* RAG vs traditional AI approaches
-* Setting up your development environment
-* Understanding the RAG pipeline
-* Your first RAG system
+## 🚀 Quick Start
 
-### **[Module 2: RAG Fundamentals](module-02-fundamentals/README.md)**
+```bash
+# Clone the repository
+git clone https://github.com/AlejandroOliva/rag-course.git
+cd rag-course
 
-* Document processing and chunking
-* Text embeddings and vector representations
-* Vector databases and similarity search
-* Retrieval strategies
-* Basic generation with retrieved context
+# Install dependencies
+pip install -r requirements.txt
 
-### **[Module 3: Advanced RAG Concepts](module-03-advanced-concepts/README.md)**
+# Run your first RAG system
+cd examples/01-simple-rag
+python simple_rag.py
+```
 
-* Advanced chunking strategies
-* Hybrid search (dense + sparse)
-* Query expansion and rewriting
-* Context compression and ranking
-* Multi-modal RAG systems
+## 📚 What You'll Learn
 
-### **[Module 4: Vector Databases](module-04-vector-databases/README.md)**
+- **RAG Fundamentals**: Understanding retrieval-augmented generation
+- **Document Processing**: Chunking, embeddings, and vector databases
+- **Advanced Techniques**: Hybrid search, query optimization, multi-modal RAG
+- **Production Deployment**: Containerization, monitoring, and scaling
+- **Real-World Applications**: Document Q&A, code assistants, knowledge chatbots
 
-* Vector database fundamentals
-* ChromaDB, Pinecone, Weaviate comparison
-* Setting up local vector stores
-* Indexing strategies and optimization
-* Production vector database deployment
+## 🎯 Course Structure
 
-### **[Module 5: Embeddings and Models](module-05-embeddings/README.md)**
+### 📖 Modules
+1. **[Introduction to RAG](module-01-introduction/README.md)** - Core concepts and first implementation
+2. **[RAG Fundamentals](module-02-fundamentals/README.md)** - Document processing and retrieval
+3. **[Advanced Concepts](module-03-advanced-concepts/README.md)** - Hybrid search and optimization
+4. **[Vector Databases](module-04-vector-databases/README.md)** - ChromaDB, Pinecone, Weaviate
+5. **[Embeddings & Models](module-05-embeddings/README.md)** - OpenAI, Cohere, open-source models
+6. **[Retrieval Strategies](module-06-retrieval-strategies/README.md)** - Semantic and hybrid search
+7. **[Practical Projects](module-07-practical-projects/README.md)** - Complete applications
 
-* Understanding embeddings
-* OpenAI, Cohere, and open-source models
-* Fine-tuning embedding models
-* Embedding quality evaluation
-* Multi-language embeddings
+### 💻 Examples
+- **[Simple RAG](examples/01-simple-rag/)** - Basic implementation with OpenAI and ChromaDB
+- **[Web RAG Interface](examples/02-web-rag/)** - Interactive Streamlit application
 
-### **[Module 6: Retrieval Strategies](module-06-retrieval-strategies/README.md)**
+### 🐳 Container Support
+- **Development Environment** - Complete setup with Jupyter and VS Code
+- **Production Deployment** - Multi-service setup with monitoring
+- **Easy Setup** - One-command deployment with Docker/Podman
 
-* Semantic search vs keyword search
-* Hybrid retrieval approaches
-* Query understanding and preprocessing
-* Re-ranking strategies
-* Context window optimization
+## 🛠️ Technology Stack
 
-### **[Module 7: Practical Projects](module-07-practical-projects/README.md)**
-
-* Building a document Q&A system
-* Creating a code assistant
-* Implementing a knowledge base chatbot
-* Advanced RAG applications
-
-## 🚀 How to Use This Course
-
-1. **Read each module in order** - The course is designed to be progressive
-2. **Practice each example** - Run all code in your Python environment
-3. **Do the exercises** - Practice is fundamental for understanding RAG
-4. **Build the projects** - Apply your knowledge in real scenarios
-5. **Experiment** - Don't be afraid to try variations and build your own RAG systems
+- **Python 3.8+** - Core programming language
+- **LangChain** - RAG framework and tools
+- **ChromaDB** - Local vector database
+- **OpenAI API** - Embeddings and LLM
+- **Sentence Transformers** - Open-source embeddings
+- **Streamlit** - Web interface
+- **Docker/Podman** - Containerization
 
 ## 📋 Prerequisites
 
-* Basic Python programming knowledge
-* Understanding of APIs and JSON
-* Command line/terminal familiarity
-* Basic knowledge of AI/LLM concepts
-* Python 3.8+ installed
-* At least 4GB RAM for local models
-* Willingness to learn 😊
+- Basic Python programming knowledge
+- Understanding of APIs and JSON
+- Command line familiarity
+- Basic knowledge of AI/LLM concepts
+- Python 3.8+ installed
+- At least 4GB RAM for local models
 
-## 🎯 Learning Objectives
+## 🎓 Learning Paths
 
-Upon completing this course, you will be able to:
+### 🏃‍♂️ Fast Track (2-3 weeks)
+For experienced developers who want to get up to speed quickly.
 
-* ✅ Understand RAG architecture and components
-* ✅ Build RAG systems from scratch
-* ✅ Choose appropriate vector databases and embeddings
-* ✅ Implement advanced retrieval strategies
-* ✅ Optimize RAG performance and accuracy
-* ✅ Deploy RAG systems in production
-* ✅ Handle multi-modal and complex RAG scenarios
+### 🚶‍♂️ Standard Track (8-10 weeks)
+Recommended for most learners with comprehensive coverage.
 
-## 🎯 Course Objective
+### 🐌 Thorough Track (4-6 months)
+For deep learning and mastery with extensive practice.
 
-This course provides comprehensive training in RAG development, from basic concepts to production deployment, enabling you to build sophisticated AI systems that can access and use external knowledge effectively.
+## 🚀 Getting Started
+
+1. **Read [START-HERE.md](START-HERE.md)** for detailed setup instructions
+2. **Choose your learning path** based on your experience level
+3. **Set up your development environment**
+4. **Begin with Module 1: Introduction to RAG**
+5. **Run the examples** to see RAG in action
+
+## 📊 Course Status
+
+✅ **Fully Functional and Ready for Use**
+
+- **5/5 Tests Passing** - All components verified
+- **Complete Documentation** - Comprehensive guides and resources
+- **Working Examples** - Ready-to-run implementations
+- **Container Support** - Easy deployment options
+- **Production Ready** - Deployable applications
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📚 Additional Resources
+
+- **[Course Information](COURSE-INFO.md)** - Detailed course structure
+- **[Quick Guide](QUICK-GUIDE.md)** - Reference and cheat sheet
+- **[Additional Resources](ADDITIONAL-RESOURCES.md)** - External links and community
+- **[Verification Report](VERIFICATION-REPORT.md)** - Test results and quality metrics
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [LangChain](https://python.langchain.com/) - RAG framework
+- [ChromaDB](https://www.trychroma.com/) - Vector database
+- [OpenAI](https://openai.com/) - Embeddings and LLM
+- [Streamlit](https://streamlit.io/) - Web interface
+- [Sentence Transformers](https://www.sbert.net/) - Open-source embeddings
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/AlejandroOliva/rag-course/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/AlejandroOliva/rag-course/discussions)
+- **Documentation**: Check the course modules and examples
 
 ---
 
-## 📖 Let's Begin
+**Ready to master RAG development? Let's begin! 🎯**
 
-👉 **Go to Module 1: Introduction to RAG**
-
----
-
-## 📚 Reference Guides
-
-* **COURSE-INFO.md** - Complete course information and structure
-* **QUICK-GUIDE.md** - RAG concepts and implementation cheat sheet
-* **ADDITIONAL-RESOURCES.md** - Links, papers, tools, and community
-
----
-
-## 💻 Practical Examples
-
-The `examples/` directory contains ready-to-run RAG projects:
-
-1. **Simple Document Q&A** (`examples/01-document-qa/`)
-2. **Code Assistant** (`examples/02-code-assistant/`)
-3. **Knowledge Base Chatbot** (`examples/03-knowledge-chatbot/`)
-
----
-
-## 🐳 Container Support
-
-This course includes Docker/Podman containers for easy setup:
-
-* **Local RAG Environment** - Complete development environment
-* **Vector Database Services** - ChromaDB, Weaviate containers
-* **Model Serving** - Local embedding and LLM services
-
----
-
-## 🛠️ Technology Stack Covered
-
-* **Python** - Core programming language
-* **LangChain** - RAG framework and tools
-* **ChromaDB** - Local vector database
-* **OpenAI API** - Embeddings and LLM
-* **Sentence Transformers** - Open-source embeddings
-* **FAISS** - Facebook's similarity search library
-* **Streamlit** - Web interface for RAG applications
-* **Docker/Podman** - Containerization
-
----
-
-_Remember that RAG is about connecting AI with knowledge. Practice building different types of RAG systems to master the concepts!_
+[![Star this repo](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/AlejandroOliva/rag-course)
+[![Fork this repo](https://img.shields.io/badge/🍴-Fork%20this%20repo-blue?style=for-the-badge)](https://github.com/AlejandroOliva/rag-course/fork)
